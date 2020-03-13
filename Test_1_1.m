@@ -1,11 +1,11 @@
-barrasRGB = imread('barrasRGB.bmp');
+imageRGB = imread('PeppersRGB.bmp');
 
-R = barrasRGB(:,:,1);
-G = barrasRGB(:,:,2);
-B = barrasRGB(:,:,3);
+R = imageRGB(:,:,1);
+G = imageRGB(:,:,2);
+B = imageRGB(:,:,3);
 
 subplot(3,3,2);
-imshow(barrasRGB);
+imshow(imageRGB);
 subplot(3,3,4);
 imshow(R);
 subplot(3,3,5);
